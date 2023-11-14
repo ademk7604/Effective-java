@@ -1,4 +1,4 @@
-package com.effectivejava.tutorial.item2_BuilderDesingP;
+package com.effectivejava.tutorial.item2_BuilderDP;
 
 public class ItemTwoTest {
 	public static void main(String[] args) {
