@@ -1,4 +1,4 @@
-package com.effectivejava.tutorial.effectivejava.item1StaticFactoryM;
+package com.effectivejava.tutorial.item1_StaticFactoryM;
 
 public class Yemek {
 	String yemek;

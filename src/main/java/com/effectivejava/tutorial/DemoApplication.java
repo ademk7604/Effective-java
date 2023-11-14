@@ -1,4 +1,4 @@
-package com.effectivejava.tutorial.effectivejava;
+package com.effectivejava.tutorial;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
