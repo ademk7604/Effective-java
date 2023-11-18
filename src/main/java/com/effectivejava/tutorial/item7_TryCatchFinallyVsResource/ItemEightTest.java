@@ -67,11 +67,12 @@ public class ItemEightTest {
 		int data = 26 / 0;
 		System.out.println("Ich fonctioniere immer:)");
 	}
-	/*
-	 * Burda finally de firayan exception birinci exception yani
-	 * int data = 25/0; exc. kesti.
-	 * Bunun icin TryCatchResource kullanmak cok onemli
-	 */
+	
+	 // Burda finally de firayan exception birinci exception yani
+	 // int data = 25/0; exc. kesti.
+	 // Bunun icin TryCatchResource kullanmak cok onemli
+	 
+	
 	*/
 	
 }
