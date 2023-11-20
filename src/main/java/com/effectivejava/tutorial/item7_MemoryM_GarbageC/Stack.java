@@ -52,7 +52,6 @@ public class Stack {
 		// yoksa pop method bize sikinti verir. Bu daha saglikli daha fazkla bos hafiza yaratir
 	}
 	
-	
 	// yer doluyorsa olan yerin 2 katindan 1 fazlasi kadar yer ac
 	private void ensureCapacity() 
 	{
@@ -60,7 +59,6 @@ public class Stack {
 		{
 			elements = Arrays.copyOf(elements, 2 * size+1);
 		}
-		
 		
 	}
 
