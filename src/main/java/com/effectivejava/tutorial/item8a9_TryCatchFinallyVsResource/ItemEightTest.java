@@ -1,4 +1,4 @@
-package com.effectivejava.tutorial.item7_TryCatchFinallyVsResource;
+package com.effectivejava.tutorial.item8a9_TryCatchFinallyVsResource;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
