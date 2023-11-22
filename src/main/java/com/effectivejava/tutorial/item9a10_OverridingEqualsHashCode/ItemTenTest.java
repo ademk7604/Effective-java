@@ -1,5 +1,10 @@
 package com.effectivejava.tutorial.item9a10_OverridingEqualsHashCode;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.objenesis.instantiator.basic.NewInstanceInstantiator;
+
 public class ItemTenTest {
 	public static void main(String[] args) {
 		
@@ -52,6 +57,7 @@ public class ItemTenTest {
 		
 		// Part4
 		/*
+		 *override ettigimde asagidaki ozellikleri dogru bir sekilde karsilayabiliyormuyum? 
 		reflexive: an object must equal itself x.equals(x)
 		symmetric: x.equals(y) must return the same result as y.equals(x)
 		transitive: if x.equals(y) and y.equals(z) then also x.equals(z) (Part5 de)
@@ -62,6 +68,19 @@ public class ItemTenTest {
 		// Part5 kitabin ornegini hoca klassslara yazmis ordan bak 
 		
 		// Part6 -> transitive: if x.equals(y) and y.equals(z) then also x.equals(z)
+		
+		//KURAL: biz nezamn equals i override ettigimizde pesinde HashCode da etmemiz gerekir
+		
+		List<DenemeSinifOvrd> list = new ArrayList<>();
+		DenemeSinifOvrd e =new DenemeSinifOvrd(1, 2);
+		list.add(e);
+		System.out.println(list.contains(new DenemeSinifOvrd(1, 2)));
+		
+		List<DenemeSinifOvrd> list2 = new ArrayList<>();
+		DenemeSinifOvrd r =new DenemeSinifOvrd(3, 4);
+		list2.add(r);
+		System.out.println(list2.contains(new DenemeSinifOvrd(3, 4)));
+		
 		
 		
 		
