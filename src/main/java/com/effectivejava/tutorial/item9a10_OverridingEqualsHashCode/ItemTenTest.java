@@ -1,7 +1,9 @@
 package com.effectivejava.tutorial.item9a10_OverridingEqualsHashCode;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.objenesis.instantiator.basic.NewInstanceInstantiator;
 
@@ -66,7 +68,7 @@ public class ItemTenTest {
 		*/
 		
 		// Part5 kitabin ornegini hoca klassslara yazmis ordan bak 
-		
+		/*
 		// Part6 -> transitive: if x.equals(y) and y.equals(z) then also x.equals(z)
 		
 		//KURAL: biz nezamn equals i override ettigimizde pesinde HashCode da etmemiz gerekir
@@ -80,6 +82,18 @@ public class ItemTenTest {
 		DenemeSinifOvrd r =new DenemeSinifOvrd(3, 4);
 		list2.add(r);
 		System.out.println(list2.contains(new DenemeSinifOvrd(3, 4)));
+		*/
+		//Part7
+		//DenemeSinifOvrd deneme1 = new DenemeSinifOvrd(1, 2);
+		//DenemeSinifOvrd deneme2 = new DenemeSinifOvrd(3, 4);
+		//DenemeSinifOvrd deneme4 = new DenemeSinifOvrd(1, 2);
+		//System.out.println(deneme1.hashCode());
+		
+		Map<DenemeSinifOvrd, String> m = new HashMap<>();
+		m.put(new DenemeSinifOvrd(1, 2), "IlkEleman");
+		
+		System.out.println(m.get(new DenemeSinifOvrd(1, 2))); // simdi IlkEleman getirdi.
+		
 		
 		
 		
