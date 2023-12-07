@@ -1,4 +1,4 @@
-package com.effectivejava.tutorial.item9a10_OverridingEqualsHashCode;
+package com.effectivejava.tutorial.itema10a11_OverridingEqualsHashCode;
 
 import java.awt.Color;
 import java.util.Objects;

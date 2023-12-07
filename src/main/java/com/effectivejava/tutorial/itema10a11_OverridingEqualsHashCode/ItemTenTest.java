@@ -1,11 +1,7 @@
-package com.effectivejava.tutorial.item9a10_OverridingEqualsHashCode;
+package com.effectivejava.tutorial.itema10a11_OverridingEqualsHashCode;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-
-import org.springframework.objenesis.instantiator.basic.NewInstanceInstantiator;
 
 public class ItemTenTest {
 	public static void main(String[] args) {

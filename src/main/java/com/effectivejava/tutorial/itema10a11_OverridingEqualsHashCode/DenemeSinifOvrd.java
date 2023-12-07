@@ -1,4 +1,4 @@
-package com.effectivejava.tutorial.item9a10_OverridingEqualsHashCode;
+package com.effectivejava.tutorial.itema10a11_OverridingEqualsHashCode;
 
 public class DenemeSinifOvrd {
 	private int a,b;
@@ -37,6 +37,7 @@ public class DenemeSinifOvrd {
 		// bir nesnenin hashcodu na bakildigi klass da hashcode methodu yoksa null verir
 		//1. yontem cok daha hizli calisiyor
 	
+	
 		@Override
 		public int hashCode() {
 			int result = Integer.hashCode(b);
@@ -45,8 +46,9 @@ public class DenemeSinifOvrd {
 			return result;
 		}
 		
+		
 		/*
-		// 2. yontem Autoboxing unautoboxing islemlerinden dolayi cpk yavas calisiyor
+		// 2. yontem Autoboxing unautoboxing islemlerinden dolayi cok yavas calisiyor
 		@Override
 		public int hashCode() {
 			return Objects.hash(a,b);

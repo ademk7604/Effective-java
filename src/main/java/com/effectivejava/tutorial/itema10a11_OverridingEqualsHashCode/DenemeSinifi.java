@@ -1,4 +1,4 @@
-package com.effectivejava.tutorial.item9a10_OverridingEqualsHashCode;
+package com.effectivejava.tutorial.itema10a11_OverridingEqualsHashCode;
 
 public class DenemeSinifi {
 	private int a,b;
